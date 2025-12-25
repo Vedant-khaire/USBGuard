@@ -1,0 +1,34 @@
+name: usbguard_app
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5
+  lottie: ^3.1.2
+  path_provider: ^2.1.2
+  cupertino_icons: ^1.0.8
+  sqflite: ^2.3.0
+  sqflite_common_ffi: ^2.3.3
+  shared_preferences: ^2.2.2
+  win32: ^5.5.0
+  win32_registry: ^1.1.2
+  pdf: ^3.11.0
+  open_file: ^3.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/animations/usb_scan.json   # put a free lottie here (optional)
